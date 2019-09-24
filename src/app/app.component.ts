@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'EMS';
+  emp_id
+  emp_name
+  emp_dept
+  
 }
