@@ -13,4 +13,7 @@ export class EmployeeService{
     getemployee(){
         return this.employeeDetail
     }
+    setEmployee(emp){
+        this.employeeDetail.push(emp)
+    }
 }
